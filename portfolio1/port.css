@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    position: absolute;
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    height: 1000px;
+    transition: transform 0.3s ease-in-out;
+}
+.one nav{
+   padding: 5px;
+   margin-top: 155px;
+   width: 195px;
+}
+.one nav li{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 33px 0px;
+    color: aqua;
+
+}
+.one nav li a{
+    text-decoration: none;
+    color: black ;
+    font-size:  29px;
+    font-weight: bolder;
+    margin-left: 35px;
+
+}
+.two{
+    background-color: aquamarine;
+    width: 100%;
+    height: 1000px;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+}
+.three{
+    background-color: white;
+    height: 700px;
+    width: 85%;
+    margin: 144px 215px;
+    display: flex;
+    justify-content: space-around;
+}
+.image img{
+    height: 395px;
+    width: 375px;
+    margin-top: 155px;
+    margin-right: 79px;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 75px;
+}
+.five{
+    font-size: 55px;
+    font-weight: bold;
+}
+.name{
+    font-size: 75px;
+    font-weight: bolder;
+}
+.about{
+    font-size: 45px;
+    font-weight: bold;
+}
+.moreabout{
+    font-size: 35px;
+    margin-top: 19px;
+}
+.btn{
+    padding: 5px 11px;
+    border-radius: 15px;
+    background-color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 39px 0px;
+    color: black;
+    border: none;
+}
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px ;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+ .contactform{
+    padding: 0 34px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 111px;
+    margin-left: 455px;
+}
+.form-label{
+    font-size: 35px;
+
+}
+ .contactform h3{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px 0;
+    font-size: 55px;
+    margin-left: -155px;
+
+ }
+ .contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+ }
+ .textarea{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    height: 195px;
+    font-size: 25px;
+ }
+ #emailHelp{
+    font-size: 19px;
+    color: red;
+    margin: 0 5px ;
+    padding: 3px 0 0 0;
+ }
+ .contactform form div input{
+    width: 555px;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 7px;
+    font-size: 25px;
+}
+#form-check{
+    flex-direction: row;
+    font-size: 25px;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+    cursor: pointer;
+}
+.ten{
+    margin-left: 255px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    padding: 5px 5px;
+    border-radius: 7px;
+    background-color: green;
+    color: whitesmoke;
+}
+.ten:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+.blogitem{
+    margin-left: 275px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 15px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 275px;
+    margin-top: 75px;
+    font-size: 35px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 9px;
+}
+.intro h2{
+    margin-left: 39px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+    font-size: 55px;
+    color: pink;
+}
+.intro p{
+    margin: 39px ;
+    font-size: 45px;
+}
+.intro{
+    margin-left: 211px;
+    background: darkgoldenrod;
+    margin-right: 15px;
+    height: 911px;
+}
+.skill{
+   width: 265px;
+   height: 15px;
+   background-color: red;
+   border: 3px solid black;
+   margin-top: 9px;
+   margin-bottom: 9px;
+}
+.skillcontainer{
+    padding: 32px;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 19px;
+
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.hundered{
+    width: 234px;
+    background-color: yellowgreen;
+}
+.fifty{
+    width: 117px;
+    background-color: aqua;
+}
+.thirtyfive{
+    width: 75px;
+    background-color: pink;
+}
+.seventyfive{
+    width: 175px;
+    background-color: green;
+}
+.symbol{
+    position: fixed;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 167px;
+}
+.oneGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+#more{
+    display: none;
+}
+#mores{
+    display: none;
+}
+#most{
+    display: none;
+}
+#mobile{
+    display: none;
+}
+.subbu{
+    background: lightgreen;
+    width: 85%;
+    height: 955px;
+    margin-top: 35px;
+    margin-left: 213px;
+}
+.subbu h3{
+    font-size: 35px;
+    margin-left: 11px;
+    padding-top: 15px;
+    color: red;
+}
+.subbu p{
+    font-size: 25px;
+    margin-left: 11px
+}
+.subbu .btn{
+    margin-top: 15px;
+    margin-left: 11px;
+}
+.subbu ul{
+    margin-left: 11px;
+    font-size: 25px;
+    margin-bottom: 11px;
+    margin-top: 5px;
+}
+.subbu li{
+    margin-left: 15px;
+}
+@media (max-width: 600px){
+    .image{
+        display: none;
+    }
+    .two{
+        height: 100%;
+    }
+    .three{
+        height: 900px;
+        width: 88%;
+        margin-top: 55px;
+        margin-left: 19px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+    }
+    .intro{
+        height: 88%;
+        width: 91%;
+        margin-top: 15px;
+        margin-left: 19px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+    .subbu{
+        height: 88%;
+        width: 88%;
+        margin-top: 55px;
+        margin-left: 27px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+
+    }
+    .name{
+        font-size: 35px;
+    }
+    .blogcontainer{
+        margin-left: -225px;
+    }
+    .contactform{
+        margin-left: 5px;
+        font-size: 25px;
+    }
+    .contactform h3{
+        margin-left: 15px;
+        font-size: 35px;
+        margin-top: -25px;
+    }
+    .contactform form div input{
+        width: 100%;
+    }
+    .textarea{
+        width: 100%;
+    }
+    .ten{
+        margin-left: 75px;
+    }
+    
+    
+}
